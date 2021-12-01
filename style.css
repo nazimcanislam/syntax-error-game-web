@@ -1,0 +1,21 @@
+#start-intro {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 56px);
+}
+
+#start-intro .background-image {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 56px);
+    background-image: url('./assets/intro.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+}
+
+#downloads i {
+    font-size: 128px;
+    display: block;
+}
